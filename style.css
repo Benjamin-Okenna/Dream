@@ -53,6 +53,9 @@ p{
   .link:hover {
     background-color: #ff005c;
   }
+  .link:active{
+    background-color: rgb(137, 241, 32);
+  }
 .primary{
 background-image: url(images/Scientists2.jpg);
 padding: 30px;
@@ -64,4 +67,32 @@ footer {
   color: white;
   padding: 15px 0;
   margin-top: 30px;
+}
+.all-imp{
+    background: #ff005c;
+}
+.specialise{
+    color: #f0f4f8;
+}
+.active{
+    display: inline-block;
+    color: #f0f4f8;
+    margin-left: 5px;
+}
+.important{
+ 
+    color: #210ce0;
+    padding: 10px ;
+    border-radius: 4px;
+}
+.important:hover{
+    color: #793f3f;
+}
+.importantnt:active{
+    color: rgb(5, 75, 5);
+}
+.main{
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
 }
