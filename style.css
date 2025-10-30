@@ -14,8 +14,7 @@ margin-bottom: 0;
    
 }
 p{
-    width: 300px;
-    font-weight: bolder;
+    
     color: rgb(12, 11, 11);
     
 }
@@ -24,19 +23,19 @@ h1{
     color: blue;
 }
 .link{
-    margin-left: 400px;
-    margin-bottom: 20px;
-    color: rgb(224, 4, 4);
+  
+ margin: 0 auto;
+    color: rgb(173, 9, 59);
     font-style: 50px;
     font-weight: bolder;
   
 }
 .primary{
-background-image: url(IMG-20250829-WA0397.jpg);
+background-image: url(images/Scientists2.jpg);
+padding: 30px;
+
 }
 .image-Ben{
-    width: 300px;
-}
-.primary-image{
-    width: 300px;
+    border-radius: 50px;
+  
 }
