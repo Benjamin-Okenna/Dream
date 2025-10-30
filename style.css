@@ -1,41 +1,67 @@
 body{
-    background-color: #f5f5f5;
-
+    background-color: #f0f4f8;
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+section{
+    background: white;
+    margin: 40px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 img{
-display: block;
-margin: 0 auto;
-width: 300px;
-margin-top: 30px;
-margin-bottom: 0;
+    display: block;
+    margin: 0 auto 15px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 
-   
-   
-   
 }
 p{
-    
-    color: rgb(12, 11, 11);
-    
-}
-h1{
+    text-align: justify;
+    font-size: 17px;
+    margin: 15px 0;
+  }
+  strong {
+    color: #004aad;
+  }
+
+  header {
+    background: linear-gradient(45deg, #004aad, #00bcd4);
+    color: white;
     text-align: center;
-    color: blue;
-}
+    padding: 30px 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+
 .link{
-  
- margin: 0 auto;
-    color: rgb(173, 9, 59);
-    font-style: 50px;
-    font-weight: bolder;
-  
-}
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #004aad;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  .link:hover {
+    background-color: #ff005c;
+  }
 .primary{
 background-image: url(images/Scientists2.jpg);
 padding: 30px;
 
 }
-.image-Ben{
-    border-radius: 50px;
-  
+footer {
+  text-align: center;
+  background-color: #004aad;
+  color: white;
+  padding: 15px 0;
+  margin-top: 30px;
 }
